@@ -1,0 +1,324 @@
+/*------------------------------*/
+/*basic set up*/
+/*------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    background-color:#fff;
+    color:#555;
+    font-family:'lato','Arial','sans-serif';
+    font-weight:300;
+    font-size:20px;
+    text-rendering: optimizeLegibility
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear:both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
+/*------------------------------*/
+/*reusable components*/
+/*------------------------------*/
+
+.row{
+    max-width:1140px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 80px 0
+}
+
+.box{
+    padding: 1%
+}
+
+
+
+/* Header */
+
+header{
+    padding: 0;
+}
+
+header div{
+    padding-top: 12px;
+}
+
+header div:first-child{
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 250%
+   
+    
+}
+
+i{
+    color: #e67e22
+}
+
+i span{
+    color: #555
+}
+
+.call-us{
+    
+    float: right;
+    margin-right: 15%;
+    
+}
+
+.call-us i {
+
+}
+
+.main-nav {
+    float: left;
+    list-style: none;
+    margin-left: 33%;
+    text-transform: uppercase;
+    font-weight: 500;
+   
+    
+    
+    
+   
+}
+
+.main-nav li{
+    float: left;
+    margin-top: 6px;
+    margin-right: 20px  ;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+    
+    
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: #555
+}
+
+.under:hover,
+.under:active{
+    border-bottom:2px solid #e67e22;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+} */
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #e67e22;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+
+
+/* what we do section */
+
+.what-we-do{
+    border-top: 2px solid #e67e22;
+    border-bottom: 2px solid #e67e22;
+    margin-top: 40px;
+    background-size: cover;
+    background-position: center;
+        height:65vh;
+        background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=839cc3134d&attid=0.1.1&permmsgid=msg-f:1641350256206005981&th=16c73f5c9d27c6dd&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-C7pPcm2l4mveZ1IZr-bclnGPXLaWOLrJTNDZwnckUAyFBnNNIg21KJ-GQagMmaWM2MqwJLtt8MWbQU_825og4E1IX1xTrrgU2T9tynhHAn7SBoEZ5y93DvXk&disp=emb');
+
+}
+
+.work-truck{
+    margin: 0
+}
+
+.hero-text-box{
+    position:absolute;
+    width: 1140px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    color: #fff
+}
+
+
+/* how to pay */
+
+
+
+.how-to-pay ul{
+    list-style: none;
+    margin-right: 10px;
+    font-weight: 500
+}
+.how-to-pay ul li{
+    
+    text-align: center
+}
+
+.how-to-pay div{
+    height: 25%;
+}
+
+.how-we-charge-section{
+    border-bottom: 2px solid #e67e22;
+    background-color: rgb(245, 244, 244);
+    color: #e67e22
+
+}
+
+.icon-mid{
+    font-size: 300%;
+    margin-top: 5%;
+    margin-left: 40%;
+    display: block;
+    color: #e67e22
+    
+}
+
+#no-fees-icon{
+    margin-top: 5%;
+    margin-left: 40%;
+    color: #e67e22;
+}
+#no-trick-icon{
+    margin-top: 5%;
+    margin-left: 42%;
+    color: #e67e22
+}
+
+.icon-pay{
+    font-size: 300%;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: #e67e22
+}
+
+/* me */
+.me{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/18358677_776513352517126_6002319605248112329_o.jpg?_nc_cat=105&_nc_oc=AQkPxX1Y8qKRTMRs-VDtr33tT1En_Eq3RNv6YQkLfu1u5Qd8GuHH6l57Ku3b74_Ed88&_nc_ht=scontent-iad3-1.xx&oh=5b8705bc0bdfb7dd5cc38f8e06b18d88&oe=5DE46C3F');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border-bottom: 10px solid #e67e22;
+    
+    
+    
+}
+
+
+.me div{
+    color: #fff;
+    word-spacing: 5px;
+    
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    
+    border-top: 150px solid #e67e22;
+    margin-left: 35%
+  }
+
+
+  /* service section */
+  .service-section{
+      background-color: #e67e22;
+      
+  }
+  .service-section p {
+      font-weight: 700;
+      color: #fff;
+    
+  }
+  .service-section h2 {
+      margin-bottom: 10px;
+      color: #fff;
+    
+  }
+
+  .btn-full{
+      background-color: #fff;
+      text-decoration-line: none;
+      color: #e67e22;
+      
+      
+      
+  }
+
+  .btn{
+    display: inline-block;
+    padding:10px 30px;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius:200px;
+    border: 1px solid rgb(245, 244, 244);
+        margin-left: -15px;
+        margin-top: 10px;
+}
+
+
+footer{
+    background-color: rgb(245, 244, 244); 
+    text-align: center;
+}
+
+footer p:first-child{
+font-size: 200%;
+font-weight: 900;
+color: #e67e22
+}
+
+.social-media{
+    font-size:250%;
+    float: right;
+}

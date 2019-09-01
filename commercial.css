@@ -1,0 +1,264 @@
+/*------------------------------*/
+/*basic set up*/
+/*------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    background-color:#fff;
+    color:#555;
+    font-family:'lato','Arial','sans-serif';
+    font-weight:300;
+    font-size:20px;
+    text-rendering: optimizeLegibility
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear:both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
+/*------------------------------*/
+/*reusable components*/
+/*------------------------------*/
+
+.row{
+    max-width:1140px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 80px 0
+}
+
+.box{
+    padding: 1%
+}
+
+
+
+/* Header */
+
+header{
+    padding: 0;
+}
+
+header div{
+    padding-top: 12px;
+}
+
+header div:first-child{
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 250%
+   
+    
+}
+
+i{
+    color: #e67e22
+}
+
+i span{
+    color: #555
+}
+
+.call-us{
+    
+    float: right;
+    margin-right: 15%;
+    
+}
+
+.call-us i {
+
+}
+
+.main-nav {
+    float: left;
+    list-style: none;
+    margin-left: 33%;
+    text-transform: uppercase;
+    font-weight: 500;
+   
+    
+    
+    
+   
+}
+
+.main-nav li{
+    float: left;
+    margin-top: 6px;
+    margin-right: 20px  ;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+    
+    
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: #555
+}
+
+.under:hover,
+.under:active{
+    border-bottom:2px solid #e67e22;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: none;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+  /* .dropdown {
+    position: relative;
+    display: inline-block;
+  } */
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #e67e22;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  
+  
+
+
+header{
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 40px;
+    
+}
+
+
+
+.commercial-info{
+    /* background-color: rgb(245, 244, 244); */
+    border-bottom: 2px solid #e67e22;
+background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('http://ecogreentankmonitor.com/wp-content/uploads/2019/03/Sized-Construction-Gas-Tank-with-Wedge.jpg');
+background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    font-weight: 700;
+    word-spacing: 5px;
+}
+
+
+
+/* our clients */
+h2{
+    text-align: left;
+    color: #e67e22;
+    margin-bottom: 50px;
+}
+
+
+
+ /* service section */
+ .service-section{
+    background-color: #e67e22;
+}
+.service-section p {
+    font-weight: 700;
+    color: #fff;
+  
+}
+.service-section h2 {
+    margin-bottom: 10px;
+    color: #fff;
+  
+}
+
+
+
+h3{
+    text-align: left;
+    color: #e67e22;
+   margin-bottom: 10px;
+   margin-top: 20px;
+}
+
+
+
+.customer-service p{
+    margin-bottom: 15px;
+    word-spacing: 3px;
+}
+
+
+
+.btn-full{
+    background-color: #fff;
+    text-decoration-line: none;
+    color: #e67e22;
+    
+    
+    
+}
+
+.btn{
+  display: inline-block;
+  padding:10px 30px;
+  font-weight: 800;
+  text-decoration: none;
+  border-radius:200px;
+  border: 1px solid rgb(245, 244, 244);
+      margin-left: -15px;
+      margin-top: 10px;
+}
+
+
+footer{
+  background-color: rgb(245, 244, 244); 
+  text-align: center;
+}
+
+footer p:first-child{
+font-size: 200%;
+font-weight: 900;
+color: #e67e22
+}
+
+.social-media{
+  font-size:250%;
+  float: right;
+}
