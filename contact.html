@@ -12,8 +12,10 @@
     <title>Frontline Fuel</title>
 </head>
 <body>
+
+    <header>
         <div class="row">
-                <i class="fas fa-fire"><span>Frontline Fuel Co.</span> </i>
+                <i class="fas fa-fire flame"> </i><span>Frontline Fuel Co.</span>
             
         </div>
 
@@ -52,144 +54,120 @@
                     </ul>
                 </div>
 
-                
+            </header>   
 
         <section class='section-form'>
 
-<div class="row">
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Order Residential Heating Oil Online
-        If you would like to place an order for residential heating oil, please fill out the form below. We will contact you to confirm your order. You will not be charged for your order until after delivery has been completed.
+<div class="row order-title">
+<h1>Order Residential Heating Oil Online</h1> 
+<p>If you would like to place an order for residential heating oil, please fill out the form below. We will contact you to confirm your order. You will not be charged for your order until after delivery has been completed.
         * indicates required field.</p>
 </div>
 
-                <div class='row'>
-                    <h2>Request a Quote</h2>
-                    </div>
-                    <div class='row'>
+         
+        
+        
+                    <div class='row' style='position: relative'>
+                      <div style='position: relative; margin-top: 50px;'><h2>Request A Quote</h2></div>
                     <form method='post' action='a' class='contact-form'>
-                        <div class='row'>
-                        <div class='col span-1-of-3'>
-                            <label for='name'>Name</label>
+
+                        
+                        <div class='row group-two'>
+                        <div class='col span-1-of-2'>
+                            <div for='name' class="name">First Name</div>
+                            <input type='text' name='first-name' id='first-name' placeholder="Enter First Name Here" required>
                             </div>
-                            <div class='col span-2-of-3'>
-                            <input type='text' name='name' id='name' placeholder="Your Name" required>
-                            </div>
-                        </div>
-                        <div class='row'>
-                        <div class='col span-1-of-3'>
-                            <label for='name'>Address</label>
-                            </div>
-                            <div class='col span-2-of-3'>
-                            <input type='text' name='address' id='address' placeholder="Your Address" required>
+                            <div class='col span-1-of-2'>
+                                    <div for='name' class="name">Last Name</div>
+                                    <input type='text' name='last-name' id='first-name' placeholder="Enter Last Name Here" required>
+                                    </div>
                             </div>
                         </div>
-                        <div class='row'>
-                        <div class='col span-1-of-3'>
-                            <label for='city'>City</label>
-                            </div>
-                            <div class='col span-2-of-3'>
-                            <input type='text' name='city' id='city' placeholder="City" required>
+                        <div class='row address'>
+                            <div for='name' class="name">Address</div>
+                            <input type='text' name='address' id='address' placeholder=" Enter Your Address Here" required>
                             </div>
                         </div>
-                        <div class='row'>
+                        <div class='row area'>
                         <div class='col span-1-of-3'>
-                            <label for='state'>State</label>
+                            <div for='city' class="name">City</div>
+                            <input type='text' name='city' id='city' placeholder="Enter City Here" required>
                             </div>
-                            <div class='col span-2-of-3'>
-                            <input type='text' name='state' id='state' placeholder="State" required>
+                            <div class='col span-1-of-3'>
+                                    <div for='state' class="name">State</div>
+                                <input type='text' name='state' id='state' placeholder="Enter State Here" required>
                             </div>
+                            <div class='col span-1-of-3'>
+                                <div class="name">Zip Code</div>
+                                    <input type='number' name='zip' id='zip' placeholder="Enter Zip Code Here" required>
+                            </div>
+                        
                         </div>
-                        <div class='row'>
-                        <div class='col span-1-of-3'>
-                            <label for='zip-Code'>Zip Code</label>
+                        <div class='row group-two'>
+                        <div class='col span-1-of-2'>
+                            <div for='email' class="name">Email</div>
+                            <input type='email' name='email' id='email' placeholder="Enter Email Here" required>
                             </div>
-                            <div class='col span-2-of-3'>
-                            <input type='number' name='zip' id='zip' placeholder="Zip Code" required>
-                            </div>
-                        </div>
-                        <div class='row'>
-                        <div class='col span-1-of-3'>
-                            <label for='email'>Email</label>
-                            </div>
-                            <div class='col span-2-of-3'>
-                            <input type='email' name='email' id='email' placeholder="Email" required>
-                            </div>
-                        </div>
-                        <div class='row'>
-                        <div class='col span-1-of-3'>
-                            <label for='phone-number'>Phone Number</label>
-                            </div>
-                            <div class='col span-2-of-3'>
+                            <div class='col span-1-of-2'>
+                                <div class="name">Phone Number</div>
                             <input type='number' name='phoneNum' id='phone-num' placeholder="xxx-xxx-xxxx" required>
                             </div>
                         </div>
-                        <div class='row'>
-                        <div class='col span-1-of-3'>
-                            <label for='newCustomer'>New Customer?</label>
-                            </div>
-                            <div class='col span-2-of-3'>
-                                    <input type="checkbox" name="yes" value="yes"> Yes<br>
-                                    <input type="checkbox" name="no" value="no"> No<br>
-                            </div>
                         </div>
-                        <div class='row'>
+
+
+
+
+                        <div class='row customer'>
                         <div class='col span-1-of-3'>
-                            <label for='newCustomer'>Tank Type:</label>
+                            <div for='newCustomer' class="name">New Customer?</div>
+                            <input type="checkbox" name="yes" value="yes"> Yes<br>
+                             <input type="checkbox" name="no" value="no"> No<br>
                             </div>
-                            <div class='col span-2-of-3'>
+                            <div class='col span-1-of-3'>
+                                <div class="name">Tank Type:</div>
                                     <input type="checkbox" name="indoor" value="indoor"> Indoor<br>
                                     <input type="checkbox" name="outside-aboveground" value="Outside Aboveground"> Outside Aboveground<br>
                                     <input type="checkbox" name="outside-underground" value="Outside Underground" > Outside Underground<br>
                             </div>
-                        </div>
-                        <div class='row'>
-                        <div class='col span-1-of-3'>
-                            <label for='newCustomer'>Type of Fuel:</label>
-                            </div>
-                            <div class='col span-2-of-3'>
+                            <div class='col span-1-of-3'>
+                                <div class="name">Type of Fuel</div>
                                     <input type="checkbox" name="heating" value="#2-heating-oil"> #2 Heating Oil <br>
                                     <input type="checkbox" name="kerosene" value="kerosene"> Kerosene<br>
                                     <input type="checkbox" name="additive" value="#2-with-additive" >#2 With Additive<br>
                             </div>
+                            </div>
                         </div>
-                        <div class='row'>
-                                <div class='col span-1-of-3'>
-                                    <label for='state'>Gallons Requested</label>
-                                    <p><a href="https://www.adamspetro.com/residential-heating-tank-chart">View Tank Chart Here</a></p>
-                                    </div>
-                                    <div class='col span-2-of-3'>
+                        <div class='row tank-chart'>
+                                    <div class="name">Gallons Requested</div>
+                                   <p><a href="https://www.adamspetro.com/residential-heating-tank-chart">Click here to View Tank Chart</a></p>    
                                     <input type='text' name='gallons' id='gallons' placeholder="How many gallons?" required>
                                     </div>
+
+                                     
+                                    </div>
                                 </div>
                         </div>
-                        <div class='row'>
+                        <div class='row tank-fill'>
                                 <div class='col span-1-of-3'>
-                                    <label for='newCustomer'>Fill Tank:</label>
-                                    </div>
-                                    <div class='col span-2-of-3'>
-                                            <input type="checkbox" name="yes" value="yes"> Yes<br>
+                                    <div for='newCustomer' class="name">Fill Tank:</div>
+                                    <input type="checkbox" name="yes" value="yes"> Yes<br>
                                             <input type="checkbox" name="no" value="no"> No<br>
                                     </div>
+                                    <div class='col span-1-of-3'>
+                                        <div class="name">Currently Out of Fuel</div>
+                                            <input type="checkbox" name="yes" value="yes"> Yes<br>
+                                            <input type="checkbox" name="no" value="no"> No<br>   
+                                    </div>
+                                    <div class='col span-1-of-3'>
+                                            <div for='newCustomer' class="name">Method of Payment</div>
+    
+                                                    <input type="checkbox" name="cash" value="cash"> Cash<br>
+                                                    <input type="checkbox" name="check" value="check"> Check<br>
+                                                    <input type="checkbox" name="credit-card" value="card" > Credit Card<br><br>
+
                                 </div>
-                                <div class='row'>
-                                        <div class='col span-1-of-3'>
-                                            <label for='newCustomer'>Currently Out of Fuel?</label>
-                                            </div>
-                                            <div class='col span-2-of-3'>
-                                                    <input type="checkbox" name="yes" value="yes"> Yes<br>
-                                                    <input type="checkbox" name="no" value="no"> No<br>
-                                            </div>
-                                        </div>
-                        <div class='row'>
-                        <div class='col span-1-of-3'>
-                            <label for='newCustomer'>Method of Payment</label>
-                            </div>
-                            <div class='col span-2-of-3'>
-                                    <input type="checkbox" name="cash" value="cash"> Cash<br>
-                                    <input type="checkbox" name="check" value="check"> Check<br>
-                                    <input type="checkbox" name="credit-card" value="card" > Credit Card<br><br>
-                            </div>
-                        </div>
+                            
                        
                       </section>
 
@@ -203,7 +181,7 @@
                                 <a href="#" class='btn btn-full'>Book Now</a>
                                          </div>
                         </div>
-                        <div class="col span-1-of-3">
+                        <div class="col span-1-of-3 areas">
                             <h2>Service Areas</h2>
                             <p>District of Columbia</p>
                             <p>Prince George County,MD</p>

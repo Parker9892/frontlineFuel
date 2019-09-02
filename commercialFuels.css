@@ -70,8 +70,15 @@ i{
     color: #e67e22
 }
 
-i span{
-    color: #555
+.flame{
+    -webkit-text-stroke: 1px black
+}
+
+span{
+    color: #555;
+    font-weight: 700;
+    font-family:'lato','Arial','sans-serif';
+    
 }
 
 .call-us{
@@ -224,9 +231,10 @@ h2{
 }
 
 
- /* service section */
- .service-section{
-    background-color: #e67e22;
+/* service section */
+.service-section{
+    background-color: black;
+    
 }
 .service-section p {
     font-weight: 700;
@@ -239,25 +247,9 @@ h2{
   
 }
 
-
-
-h3{
-    text-align: left;
-    color: #e67e22;
-   margin-bottom: 10px;
-   margin-top: 20px;
+.areas h2{
+    color: #e67e22
 }
-
-
-
-
-
-.customer-service p{
-    margin-bottom: 15px;
-    word-spacing: 3px;
-}
-
-
 
 .btn-full{
     background-color: #fff;
@@ -285,6 +277,13 @@ footer{
   text-align: center;
 }
 
+#company-name{
+  color: #e67e22;
+  -webkit-text-stroke: .01px black;
+  
+}
+
+
 footer p:first-child{
 font-size: 200%;
 font-weight: 900;
@@ -295,7 +294,5 @@ color: #e67e22
   font-size:250%;
   float: right;
 }
-
-
 
 
