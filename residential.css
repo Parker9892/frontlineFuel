@@ -70,15 +70,15 @@ i{
     color: #e67e22
 }
 
+.flame{
+    -webkit-text-stroke: 1px black
+}
+
 span{
     color: #555;
     font-weight: 700;
     font-family:'lato','Arial','sans-serif';
     
-}
-
-.flame{
-    -webkit-text-stroke: 1px black
 }
 
 .call-us{
@@ -175,20 +175,25 @@ header{
     
 }
 
-
-
-.commercial-info{
-    /* background-color: rgb(245, 244, 244); */
+/* main section */
+.residential-fuels{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://static.politico.com/dims4/default/c2b2e6e/2147483647/resize/1160x%3E/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fcapny%2Fsites%2Fdefault%2Ffiles%2Fa-home%20heating%20tank_0.png');
     border-bottom: 2px solid #e67e22;
-background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('http://ecogreentankmonitor.com/wp-content/uploads/2019/03/Sized-Construction-Gas-Tank-with-Wedge.jpg');
-background-size: cover;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: #fff;
-    font-weight: 700;
-    word-spacing: 5px;
+    color: #f1f1f1;
+    font-weight: 600;
+    word-spacing: 2px;
 }
 
+.dual-p{
+    position: relative;
+}
+
+#second{
+    margin-top: 20px;
+}
 
 
 /* our clients */
@@ -198,15 +203,14 @@ h2{
     margin-bottom: 50px;
 }
 
-
-.customer-service p{
-font-weight: 300
+.title{
+    padding: 0
 }
 
 
 
- /* service section */
- .service-section{
+/* service section */
+.service-section{
     background-color: black;
     
 }
@@ -268,3 +272,5 @@ color: #e67e22
   font-size:250%;
   float: right;
 }
+
+
