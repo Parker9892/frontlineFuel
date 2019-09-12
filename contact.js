@@ -1,5 +1,5 @@
 $('#contact-form').submit(function(e){
-    var name = $('.group-two')
+    var name = $('#first-name')
 
 
     if (!name.value ){
