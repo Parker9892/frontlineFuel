@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="Grid.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/e81f696bd6.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
@@ -130,13 +132,13 @@ FRONTLINE FUEL CO. delivers these world class products with Knowledgeable staff,
                 <h2>Request a Quote</h2>
                 </div>
                 <div class='row'>
-                <form method='post' action='a' class='contact-form'>
+                <form method='post' action="https://formspree.io/mzqkajvx" class='contact-form'>
                     <div class='row'>
                     <div class='col span-1-of-3'>
                         <label for='name'>Name</label>
                         </div>
                         <div class='col span-2-of-3'>
-                        <input type='text' name='name' id='name' placeholder="Your Name" required>
+                        <input type='text' name='name' class='val' placeholder="Your Name" required>
                         </div>
                     </div>
                     <div class='row'>
@@ -144,7 +146,7 @@ FRONTLINE FUEL CO. delivers these world class products with Knowledgeable staff,
                         <label for='email'>Email</label>
                         </div>
                         <div class='col span-2-of-3'>
-                        <input type='email' name='email' id='email' placeholder="Your Email" required>
+                        <input type='email' name='email' class='val' placeholder="Your Email" required>
                         </div>
                     </div>
                     <div class='row'>
@@ -161,20 +163,13 @@ FRONTLINE FUEL CO. delivers these world class products with Knowledgeable staff,
                             </select>
                         </div>
                     </div>
-                    <div class='row'>
-                    <div class='col span-1-of-3'>
-                        <label>Newsletter?</label>
-                        </div>
-                       <div class='col span-2-of-3'>
-                        <input type='checkbox' name='news' id='new' checked>Yes, Please
-                        </div>
-                    </div>
+                    
                      <div class='row'>
                     <div class='col span-1-of-3'>
                         <label>Drop us a line</label>
                         </div>
                        <div class='col span-2-of-3'>
-                       <textarea name='message' placeholder="Your message"></textarea>
+                       <textarea class='val' name='message' placeholder="Your message"></textarea>
                         </div>
                     </div>
                     <div class='row'>

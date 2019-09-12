@@ -279,6 +279,18 @@ span{
   }
 
 
+  /* section-form */
+
+  .val{
+    width: 55%
+  }
+  .section-form textarea{
+    width: 75%;
+    height: 20%
+  }
+
+
+
   /* service section */
   .service-section{
       background-color: black;

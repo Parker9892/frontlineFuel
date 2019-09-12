@@ -1,5 +1,5 @@
 $('#contact-form').submit(function(e){
-    var name = $('#first-name')
+    var name = $('.val')
 
 
     if (!name.value ){
@@ -20,12 +20,5 @@ $('#contact-form').submit(function(e){
         alertify.success('message sent')
     }
 })
-
-
-
-
-
-
-
 
 
