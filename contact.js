@@ -12,7 +12,9 @@ $('#contact-form').submit(function(e){
             data: $(this).serialize(),
             dataType: 'json'
         });
-
+        window.onbeforeunload = function(){
+            return 'Are you sure you want to leave?';
+        };
         e.preventDefault()
         $(this).get(0).reset()
         alertify.success('message sent')
