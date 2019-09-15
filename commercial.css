@@ -92,79 +92,44 @@ span{
 
 }
 
-.main-nav {
-    float: left;
-    list-style: none;
-    margin-left: 33%;
-    text-transform: uppercase;
-    font-weight: 500;
-   
-    
-    
-    
-   
-}
-
-.main-nav li{
-    float: left;
-    margin-top: 6px;
-    margin-right: 20px  ;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.5s;
-    
-    
-}
-
-.main-nav li a{
-    text-decoration: none;
-    color: #555
-}
-
-.under:hover,
-.under:active{
-    border-bottom:2px solid #e67e22;
-}
-
-/* Dropdown Button */
-.dropbtn {
-  background-color: white;
-  color: white;
-  font-weight: 500;
-  text-transform: uppercase;
-  border: none;
-}
-  
-  /* The container <div> - needed to position the dropdown content */
-  /* .dropdown {
+.navbar {
     position: relative;
-    display: inline-block;
-  } */
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    background-color: #060606f1;
   }
   
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
     text-decoration: none;
-    display: block;
+    font-size: 17px;
+    width: 20%; /* Four links of equal widths */
+    text-align: center;
+    font-weight: 400
   }
   
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #e67e22;}
+  .navbar a:hover {
+    background-color: #000;
+  }
   
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
+  .navbar a.active {
+    background-color: #e67e22;
+  }
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+
+
   
   
 
