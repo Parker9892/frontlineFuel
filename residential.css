@@ -51,10 +51,13 @@ section{
 
 header{
     padding: 0;
+    
+    
 }
 
 header div{
     padding-top: 12px;
+    
 }
 
 header div:first-child{
@@ -136,7 +139,7 @@ span{
 
 header{
     border-bottom: 2px solid #e67e22;
-    padding-bottom: 40px;
+    
     
 }
 
