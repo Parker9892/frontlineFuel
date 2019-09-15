@@ -253,7 +253,12 @@ span{
 .me div{
     color: #fff;
     word-spacing: 5px;
+   
     
+}
+
+.me p{
+    font-weight: 500
 }
 
 .border{
